@@ -1,543 +1,142 @@
-> [!NOTE]
-> 🪐 **Internal Template Notice (v1.0)**  
->  
-> This README serves as a **demonstration template (version 1.0)** for internal use within the **ModalityDance Lab**.  
->  
-> **Author:** [Hongru Cai](mailto:henry.hongrucai@gmail.com)
->
-> **Update date**: 2025.12.10
->  
-> **Usage scope:** Internal use only. Please do not redistribute or share externally.
-> 
-> If you have questions, suggestions, or proposed improvements to this template, feel free to contact me.
-> 
-> Use GitHub callouts (`[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]`) **selectively** to help readers understand critical information.
-> 
-> Some componets may not render properly in VS Code preview, copy to preview on GitHub if needed.
-
-> [!IMPORTANT]
-> 🪐 **About This Template**  
->  
-> This template provides a **minimal, example-based framework** for releasing research code.  
-> It is intentionally lightweight and designed to be extended with additional components, including:
-> - more demos or runnable examples,
-> - interactive or web-based interfaces,
-> - detailed documentation or tutorials,
-> - PyPI packages or other distribution formats,
-> - or any other project-specific features.
-
-> [!TIP]
-> 🪐 **Customization & Extension**  
->  
-> All visual elements (e.g., icons, styles, figures, layouts) are **fully customizable**.  
-> Feel free to replace or redesign them to better fit your project.
-
-> [!WARNING]
-> 🪐 **Before Public Release**  
-> 
-> - Ensure that the final README contains only **project-specific content**.  
-> - Verify that **all links are clickable and correctly resolved** (paper, code, data, demos).  
-> - Check that **all figures and images render correctly** (paths, formats, and visibility).  
-> - Confirm that the **citation section is complete and up to date**, and matches the final paper version.  
-> - Confirm that a **LICENSE file is present**, and that the information inside the file is accurate.  
-> - Verify that the **project page link is correct and up to date**.
-> - Check that the **News section is current**, and remove any placeholder entries.
-> - Please **remove all instructional comments and internal notes** in this README. 
-
-
-<!-- Some Callout Examples you can use:
-
-> [!NOTE]
-> Use this callout for neutral clarifications or important contextual information
-> (e.g., assumptions, default settings, or environment constraints).
-
-> [!TIP]
-> Use this callout to suggest optional improvements or best practices
-> (e.g., faster training, better performance, or convenience tricks).
-
-> [!IMPORTANT]
-> Use this callout to highlight steps that are required to reproduce results
-> or critical instructions that should not be skipped.
-
-> [!WARNING]
-> Use this callout to alert readers to potential pitfalls, breaking changes,
-> or actions that may cause incorrect results or failures. -->
-
-
-
-<!--
-Header, Logo, Title, Quick Links
-
-Points:
-1. A logo image placed in assets/, e.g., assets/logo.png.  
-   You may design one manually or generate using AI.
-
-2. A project title aligned with the codebase, method name, or paper name.
-
-3. Links:
-    Required:
-    - Project page (GitHub repo page if no dedicated project page is available).
-    - Paper link (arXiv page).
-    Optional:
-    - HuggingFace models (if the project releases model weights).
-    - HuggingFace datasets (if the project provides datasets).
-    - Community links such as Slack, Discord, Feishu, WeChat, etc. (if applicable).
-    - Trending repository badge (if applicable).
-
--->
-
-
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="./assets/LOGO.png" alt="Project Logo" width="300">
-  <h1 align="center">Project Name: Short tagline</h1>
-</div>
 
 <div align="center">
+  <h1 align="center">Awesome Agent-as-a-Judge</h1>
+  
+<p align="center">
+    <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome list badge"></a>
+    <a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/stargazers"><img src="https://img.shields.io/github/stars/ModalityDance/Awesome-Agent-as-a-Judge?style=social" alt="GitHub stars"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
+</p>
 
-  <!-- Project Page -->
-  <a href="{project_page_url}">
-    <img src="https://img.shields.io/badge/Project-Page-6a5acd?style=for-the-badge" alt="Project Page">
-  </a>
+<img src="assets/taxonomy.png" alt="Agent-as-a-Judge Taxonomy" width="600"/>
 
-  <!-- Paper Link -->
-  <a href="{paper_url}">
-    <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge&logo=arxiv" alt="Paper">
-  </a>
-
-  <!-- HuggingFace Models -->
-  <a href="{huggingface_url}">
-    <img src="https://img.shields.io/badge/HuggingFace-Models-fcc21b?style=for-the-badge&logo=huggingface&logoColor=white" alt="HF Models">
-  </a>
-
-  <!-- Optional Dataset Badge -->
-  <a href="{dataset_url}">
-    <img src="https://img.shields.io/badge/Dataset-Available-4c1?style=for-the-badge" alt="Dataset">
-  </a>
-
-  <!-- Optional Community Badges -->
-  <a href="{slack_or_discord_or_feishu}">
-    <img src="https://img.shields.io/badge/Community-Join-07c160?style=for-the-badge&logo=wechat&logoColor=white" alt="Community">
-  </a>
+<br/>
 
 </div>
 
 
-<!--
-Overview
 
-Points:
+Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for **AA Survey on Agent-as-a-Judge**, where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
+
+
+
+## 📑 Table of Contents <span id="table-of-contents">
+
+* <a href='#papers'>📚 Papers</a>
+* <a href='#community'>🤝 Join the Community</a>
+* <a href='#citation'> 📖 Citation </a>
+
+## 📚 Papers <span id="papers">
+
+
+- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
+- [2025/11] HiMATE: A Hierarchical Multi-Agent Framework for Machine Translation Evaluation | [paper](https://arxiv.org/abs/2505.16281) | Venue: EMNLP 2025
+- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
+- [2025/11] Large Language Models as User-Agents for Evaluating Task-Oriented-Dialogue Systems . | [paper](https://arxiv.org/abs/2411.09972)
+- [2025/01] Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning | [paper](https://arxiv.org/abs/2510.23038)
+- [2025/01] Online Rubrics Elicitation from Pairwise Comparisons | [paper](https://arxiv.org/abs/2510.07284)
+- [2025/09] SAMVAD: A Multi-Agent System for Simulating Judicial Deliberation Dynamics in India | [paper](https://arxiv.org/abs/2509.03793)
+- [2025/09] AutoSCORE: Enhancing Automated Scoring with Multi-Agent Large Language Models via Structured Component Recognition | [paper](https://arxiv.org/abs/2509.2191)
+- [2025/08] PersRM-R1: Enhance Personalized Reward Modeling with Reinforcement Learning | [paper](https://arxiv.org/abs/2508.14076)
+- [2025/08] CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward | [paper](https://arxiv.org/abs/2508.03686) | Venue: EMNLP 2025
+- [2025/07] CourtEval: A courtroom-based multi-agent evaluation framework. | [paper](https://aclanthology.org/2025.findings-acl.1327) | Venue: ACL 2025
+- [2025/07] Multi-agent-as-judge: Aligning llm-agent-based automated evaluation with multi-dimensional human evaluation. | [paper](https://arxiv.org/abs/2507.21028)
+- [2025/07] FinResearchBench: A Logic Tree based Agent-as-a-Judge Evaluation Framework for Financial Research Agents | [paper](https://arxiv.org/abs/2507.16248) | Venue: ICAIF 2025
+- [2025/07] From Tasks to Teams: A Risk-First Evaluation Framework for Multi-Agent LLM Systems in Finance | [paper](https://openreview.net/forum?id=frPFuji3Hz&noteId=w7sDUtTtQU) | Venue: ICML Workshop 2025
+- [2025/07] Multi-agent-as-judge: Aligning llm-agent-based automated evaluation with multi-dimensional human evaluation | [paper](https://arxiv.org/abs/2507.21028)
+- [2025/06] SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs | [paper](https://arxiv.org/abs/2506.05598) | Venue: ACL 2025
+- [2025/05] CAFES: A Collaborative Multi-Agent Framework for Multi-Granular Multimodal Essay Scoring | [paper](https://arxiv.org/abs/2505.13965)
+- [2025/05] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment | [paper](https://arxiv.org/abs/2505.15456) | Venue: NeurIPS 2025
+- [2025/05] ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents | [paper](https://arxiv.org/abs/2505.12531) | Venue: EMNLP 2025
+- [2025/05] Sentient Agent as a Judge: Evaluating Higher-Order Social Cognition | [paper](https://arxiv.org/abs/2505.02847)
+- [2025/05] AGENT-X: Adaptive Guideline-based Expert Network for Threshold-free AI-generated teXt detection | [paper](https://arxiv.org/abs/2505.15261)
+- [2025/05] UrduFactCheck: An Agentic Fact-Checking Framework for Urdu | [paper](https://arxiv.org/abs/2505.15063) | Venue: EMNLP 2025
+- [2025/04] Multi-Agent LLM Judge: automatic personalized LLM judge design for evaluating natural language generation applications | [paper](https://arxiv.org/abs/2504.02867)
+- [2025/04] EvalAgent: Discovering Implicit Evaluation Criteria from the Web | [paper](https://arxiv.org/abs/2504.15219) | Venue: COLM 2025
+- [2025/04] CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation | [paper](https://arxiv.org/abs/2504.13472) | Venue: ASE 2025
+- [2025/04] VerifiAgent: a Unified Verification Agent in Language Model Reasoning | [paper](https://arxiv.org/abs/2504.00406) | Venue: EMNLP 2025
+- [2025/04] xVerify: Efficient Answer Verifier for Reasoning Model Evaluations | [paper](https://arxiv.org/abs/2504.10481)
+- [2025/04] CIGEval: A Unified Agentic Framework for Evaluating Conditional Image Generation | [paper](https://arxiv.org/abs/2504.07046) | Venue: ACL 2025
+- [2025/03] GEMA-Score: Granular Explainable Multi-Agent Score for Radiology Report Evaluation | [paper](https://arxiv.org/abs/2503.05347)
+- [2025/02] Faithful, Unfaithful or Ambiguous? Multi-Agent Debate with Initial Stance for Summary Evaluation | [paper](https://arxiv.org/abs/2502.08514) | Venue: NAACL 2025
+- [2025/02] Standard Benchmarks Fail -- Auditing LLM Agents in Finance Must Prioritize Risk | [paper](https://arxiv.org/abs/2502.15865)
+- [2025/02] Multi-Agent Verification: Scaling Test-Time Compute with Multiple Verifiers | [paper](https://arxiv.org/abs/2502.20379) | Venue: COLM 2025
+- [2025/02] Popper: Automated Hypothesis Validation with Agentic Sequential Falsifications | [paper](https://arxiv.org/abs/2502.09858) | Venue: ICML 2025
+- [2025/02] FinDeepResearch: Evaluating Deep Research Agents in Rigorous Financial Analysis | [paper](https://arxiv.org/abs/2510.13936)
+- [2025/02] FSPO: Few-Shot Preference Optimization of Synthetic Preference Data in LLMs Elicits Effective Personalization to Real Users | [paper](https://arxiv.org/abs/2502.19312)
+- [2025/02] FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation | [paper](https://arxiv.org/abs/2502.17924) | Venue: ACL 2025
+- [2025/02] Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals. | [paper](https://arxiv.org/abs/2502.19328) | Venue: ACL 2025
+- [2025/01] PSYCHE: A Multi-faceted Patient Simulation Framework for Evaluation of Psychiatric Assessment Conversational Agent | [paper](https://arxiv.org/abs/2501.01594)
+- [2025/01] IntellAgent: A Multi-Agent Framework for Evaluating Conversational AI Systems | [paper](https://arxiv.org/abs/2501.11067)
+- [2025/01] NarrativeFactScore: Agent-as-Judge for Factual Summarization of Long Narratives | [paper](https://arxiv.org/abs/2501.09993) | Venue: EMNLP 2025
+- [2024/12] AgentsBench: A Multi-Agent LLM Simulation Framework for Legal Judgment Prediction | [paper](https://arxiv.org/abs/2412.18697)
+- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
+- [2024/12] M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation | [paper](https://arxiv.org/abs/2412.20127) | Venue: ACL 2025
+- [2024/11] SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation | [paper](https://arxiv.org/abs/2411.16077)
+- [2024/01] Agent-as-a-Judge: Evaluate Agents with Agent | [paper](https://arxiv.org/abs/2410.10934) | Venue: ICML 2025
+- [2024/01] LRQ-Fact: LLM-Generated Relevant Questions for Multimodal Fact-Checking . | [paper](https://arxiv.org/abs/2410.04616)
+- [2024/01] A LLM-Powered Automatic Grading Framework with Human-Level Guidelines Optimization | [paper](https://arxiv.org/abs/2410.02165)
+- [2024/05] MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation | [paper](https://arxiv.org/abs/2403.19305) | Venue: DASFAA 2024
+- [2024/05] Grade Like a Human: Rethinking Automated Assessment with Multi-Agent LLMs | [paper](https://arxiv.org/abs/2405.19694)
+- [2024/03] AgentsCourt: Building judicial decision-making agents with court debate simulation and legal knowledge augmentation. | [paper](https://arxiv.org/abs/2403.02959) | Venue: EMNLP 2024
+- [2024/02] Ai hospital: Benchmarking large language models in a multi-agent medical interaction simulator | [paper](https://arxiv.org/abs/2402.09742) | Venue: COLING 2025
+- [2024/02] Benchmarking Large Language Models on Communicative Medical Coaching: A Dataset and a Novel System | [paper](https://arxiv.org/abs/2402.05547) | Venue: ACL 2024
+- [2024/01] ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate | [paper](https://arxiv.org/abs/2308.07201) | Venue: ICLR 2024
+- [2023/03] Large language models are diverse role-players for summarization evaluation | [paper](https://arxiv.org/abs/2303.15078) | Venue: NLPCC 2023
 
-1. A short paragraph (2–4 sentences) describing:
-    - What the project is.
-    - The main purpose or capability.
-    - What benefit users get.
-    - The scope or application scenario.
-    - The primary components included in this repository.
-
-2. A "Key Features" section.  
-   Each feature should include:
-    - A short title (e.g., "Modular Design", "Fast Training").
-    - A 1–2 sentence explanation of what the feature provides and why it matters.
-   
-3. Add more sections if needed.
-
-4. A main figure image placed under assets/, e.g., assets/overview.png.  
-   This image should visually summarize the system or framework.
-
--->
-
-Welcome to **Project Name**! 👋Project Name is a flexible and scalable framework designed for **core purpose, e.g., multimodal retrieval, generative search, LLM-based reasoning**.  It offers a clean and modular design, making it easy for researchers and developers to build, extend, and evaluate advanced models and pipelines. This project provides an implementation of {main contribution or goal}, including training scripts, evaluation pipelines, and optional demo resources.
-
-
-### 🪐 Key Features
-
-🧭 **Feature 1 Title**  
-Describe the core capability enabled by this feature and its role in the overall system.
-
-🌌 **Feature 2 Title**  
-Explain how this component improves effectiveness, efficiency, or modeling flexibility.
-
-🧩 **Feature 3 Title**  
-Describe how this design choice supports extensibility, ablation, or future research.
-
-
-
-### More sections if you want ...
-
-
-<div align="center">
-  <figure>
-    <img src="./assets/overview.png" alt="Overview" style="max-width: 100%; height: auto;">
-    <br>
-    <figcaption><em>Quick Overview of Project Name.</em></figcaption>
-  </figure>
-</div>
-
-
-<!--
-News 
-
-Points:
-1. Include chronological updates about the project.
-2. Each news entry should have:
-   - A date in [YYYY.MM] or [YYYY, MMM DD] format.
-   - A short highlight sentence.
-3. Optional but encouraged:
-   - Bullet lists for detailed updates.
-   - Links to papers, project pages, demos, datasets.
-   - Emojis to increase readability.
-
--->
-
-## 🔥 News 
-
-<div style="max-height: 240px; overflow-y: auto;">
-
-- **[2025.xx]** 📢📢 Exciting news! Our project has been accepted as a Spotlight paper at NeurIPS 2025!
-
-- **[2025.xx]** 🎉🎉 We released a major upgrade including new benchmarks, UI, and documentation.
-  - 📄 Paper: <a href="{paper_link}">arXiv</a>
-  - 📊 Benchmark Suite: <a href="{benchmark_link}">Link</a>
-  - 🖥️ Web UI: {description}
-
-- **[2025.xx]** 🎉🎉Initial release of the project.
-
-</div>
-
-
-<!--
-Table of Contents
-
-REQUIRED:
-1. Quick Start
-2. How It Works (Method / Framework Overview)
-3. Community
-4. Acknowledgements
-5. Citation
-
-OPTIONAL:
-1. Documentation
-2. TODO List / Roadmap
-3. Examples
-4. How to Use
-5. More sections as needed.
-
--->
-
-## 📑 Table of Contents <span id="table-of-contents"></span>
-
-
-* <a href='#quick-start'>🚀 Quick Start</a>
-  * <a href='#installation'>Installation</a>
-  * <a href='#data'>Data</a>
-  * <a href='#running'>Running</a>
-<!-- * <a href='#examples'>⬇️ Examples</a> -->
-* <a href='#how-it-works'>✨ How It Works</a>
-<!-- * * <a href='#documentation'>📖 Documentation</a> -->
-<!-- * <a href='#todo'>📝 TODO List</a> -->
-* <a href='#community'>🤝 Community</a>
-* <a href='#acknowledgements'>🌱 Acknowledgements</a>
-* <a href='#citation'>📚 Citation</a>
-
-
-<!--
-Quick Start (Very Detailed Guide)
-
-REQUIRED:
-1. Environment Installation
-   - Must include conda or virtualenv setup.
-   - Must include Python version requirements.
-   - Must list installation commands (pip or requirements.txt).
-   - Must include GPU/CPU dependency notes if necessary.
-
-2. Dataset Preparation
-   - Instructions for downloading datasets.
-   - Show expected folder structure.
-   - Provide scripts if applicable.
-   - If dataset is on HuggingFace, include "huggingface-cli" usage.
-
-3. Run the Project
-   - Must include detailed commands to run training and/or inference.
-   - Should include training or inference example.
-   - Should be copy-paste friendly.
-   - Must can replicate your main results using these instructions.
-
-OPTIONAL:
-1. API Keys Setup
-   - Required only if project calls external APIs (OpenAI, HF Inference, etc.).
-   - Provide environment variable examples: export, .env file, etc.
-
-2. Pretrained Checkpoints
-   - Links to ckpts (HF Hub, Google Drive, etc.)
-   - Instructions for loading the checkpoint.
-
-3. Launch UI / Demo
-   - Streamlit, Gradio, Web UI—add steps if relevant.
-
-4. Additional Examples
-   - Python code snippets, CLI examples, or config-based usage.
-
-5. Other points as needed.
-
--->
-
-## 🚀 Quick Start <span id="quick-start"></span>
-
-
-### 1. Installation <span id="installation"></span>
-
-#### **Conda (recommended)**
-
-```bash
-conda create -n {env_name} python=3.10 -y
-conda activate {env_name}
-pip install -r requirements.txt
-```
-
-#### **Pip + Virtualenv**
-
-```bash
-python3 -m venv {env_name}
-source {env_name}/bin/activate
-pip install -r requirements.txt
-```
-
-#### **Hardware Requirements (recommended to fill)**
-
-* GPU: **{e.g., 16GB VRAM minimum}**
-* Python: **3.9 / 3.10**
-* CUDA: **{version}**
-* Frameworks: **PyTorch {version}, Transformers {version}, etc.**
-
-
-### 2. Data Preparation <span id="data"></span>
-
-#### **Download datasets**
-
-```bash
-bash scripts/download_data.sh
-```
-
-or download manually from:
-
-* {dataset_source_1}
-* {dataset_source_2}
-
-#### **Expected folder structure**
-
-```plaintext
-data/
-  ├── train/
-  ├── val/
-  ├── test/
-  └── metadata.json
-```
-
-#### **Optional: preprocess data**
-
-```bash
-python scripts/preprocess.py --input data/raw --output data/processed
-```
-
-
-### 3. Running <span id="running"></span>
-
-#### **Basic inference**
-
-```bash
-python scripts/inference.py --input example.txt --output result.json
-```
-
-#### **Training example**
-
-```bash
-bash scripts/train.sh
-```
-
-or
-
-```bash
-python train.py --config configs/default.yaml
-```
-
-#### **Evaluation**
-
-```bash
-python evaluate.py --checkpoint checkpoints/{ckpt_name}.pt
-```
-
-
-#### 4. Other optional setups
-
-
-<!--
-How It Works (Methods Overview)
-
-
-GOALS OF THIS SECTION:
-1. Provide a clear and brief explanation of how the system or method works.
-2. Make this understandable even for readers who do not yet know the technical details.
-
-Points:
-1. A high-level description of the system architecture or method.
-2. Key components/modules and their roles.
-3. A step-by-step workflow of the main process.
-4. Figures or diagrams to illustrate the method.
-
-Or:
-
-you can organize in your own way as long as it meets the goals above!!!
-
--->
-
-## ✨ How It Works <span id="how-it-works"></span>
-
-🪐 **Project Name** is built around a modular research pipeline for **{core capability}**, where each component corresponds to a well-defined stage in the overall method.  
-The system separates representation, reasoning, and output stages into independent modules, allowing controlled experimentation and analysis.  
-This design enables flexible replacement of individual components without affecting the rest of the pipeline.
-
-At a high level, the workflow proceeds as follows:
-
-1. **{Step 1: Input processing}** — {Describe how raw inputs are converted into model-friendly representations.}  
-2. **{Step 2: Core algorithm or modeling stage}** — {Explain how the main computation or retrieval happens.}  
-3. **{Step 3: Final output generation}** — {Describe how results are composed, ranked, or produced.}
-
-<div align="center">
-  <figure>
-    <img src="./assets/{method-figure.png}" alt="Method Overview" style="max-width: 100%; height: auto;">
-    <br>
-    <figcaption><em>Method overview of {Project Name}.</em></figcaption>
-  </figure>
-</div>
-
-
-<!--
-Community
-
-REQUIRED:
-1. Contributors section or GitHub contributors graph.
-2. Star history chart.
-3. A short paragraph encouraging engagement with the project.
-
-OPTIONAL:
-1. Social groups (Slack, Discord, WeChat, Feishu).
-2. Issue tracker link (GitHub Issues).
-3. Contribution guidelines (link to CONTRIBUTING.md if exists).
-
--->
 
 ## 🤝 Join the Community <span id="community"></span>
 
-We welcome researchers, developers, and enthusiasts to join the **Project Name** community.  
-You can participate by reporting issues, contributing features, or sharing feedback to help us improve and grow the project. 
+We would like to thank the contributors, open-source projects, and research communities whose work made this collection possible. This repository builds upon the excellent research in agent-based evaluation methods. We also acknowledge helpful discussions and support from **Modality Dance Lab** and the open-source community.
 
-<!-- Optional social groups -->
-<!-- - <a href="{slack_link}">Join our Slack workspace</a> — Ideal for research discussions and development updates.  
-- <a href="{discord_link}">Join our Discord server</a> — Community-driven space for questions, ideas, and feedback.  
-- <a href="{wechat_or_feishu_link}">Join our WeChat / Feishu group</a> — Regional/community group (optional).   -->
 
 <div align="center">
 
-<!-- Contributors -->
-**We thank all our contributors for their valuable contributions.**
-<a href="https://github.com/xxx/xxx/contributors">
+
+<a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/contributors">
   <img src="https://contrib.rocks/image?repo=xxx/xxx" />
 </a>
 
 <br/><br/>
 
 <!-- Star history chart -->
-[![Star History Chart](https://api.star-history.com/svg?repos=xxx/xxx&type=Date)](https://star-history.com/xxx/xxx&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ModalityDance/Awesome-Agent-as-a-Judge&type=Date)](https://star-history.com/ModalityDance/Awesome-Agent-as-a-Judge&Date)
 
 </div>
 
 
-<!--
-Acknowledgements & Citation
 
 
-ACKNOWLEDGEMENTS:
-1. Credit any external libraries, toolkits, or frameworks the project depends on.
-2. Cite related repositories if this project builds upon or is inspired by them.
-3. Acknowledge dataset sources if used.
-4. Claim on licensing or usage rights.
-  1. MIT License (default):
-     Use this for most research code releases when no usage restrictions are required.
-  2. Apache License 2.0:
-     Use this for larger frameworks or systems when explicit patent protection is desired.
-  3. Non-Commercial (NC):
-     Use this only when the project or data must restrict commercial usage.
-5. Acknowledge funding, labs, collaborators, or mentors (optional).
 
+## 📖 **Citation** <span id="citation"></span>
 
-CITATION:
-1. Provide BibTeX for the project’s paper.
-2. If the paper is not yet published, use an arXiv placeholder.
-
--->
-
-
-## 🌱 **Acknowledgements** <span id="acknowledgements"></span>
-
-We would like to thank the contributors, open-source projects, and research communities whose work made **{Project Name}** possible. This project builds upon ideas, tools, and datasets developed by the broader machine learning and information retrieval ecosystem. We also acknowledge helpful discussions and support from the members of **Modality Dance Lab** and the open-source community.
-
-This project is licensed under the **License Name**. Please refer to the LICENSE file for more details.
-
-### 🔗 Related Projects
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-  <b>🌟 Related Project 1</b><br/>
-  <a href="{project_link_1}">{project_link_1}</a>
-</td>
-<td align="center">
-  <b>🚀 Related Project 2</b><br/>
-  <a href="{project_link_2}">{project_link_2}</a>
-</td>
-<td align="center">
-  <b>🔧 Related Project 3</b><br/>
-  <a href="{project_link_3}">{project_link_3}</a>
-</td>
-</tr>
-</table>
-
-</div>
-
-
-## 📚 **Citation** <span id="citation"></span>
-
-If you use **{Project Name}** in your research or applications, please consider citing:
 
 ```bibtex
 @article{yourproject2025,
-  title        = {{Project Name}: {Short descriptive subtitle}},
+  title        = {A Survey on Agent-as-a-Judge},
   author       = {Your Name and Collaborator Name and Others},
   journal      = {arXiv preprint arXiv:{xxxx.xxxxx}},
   year         = {2025}
 }
 ```
 
-<!-- Modify the repository URL accordingly. -->
 
 <div align="center">
 
-<a href="https://github.com/{github_org}/{repo_name}">
+<a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge">
   <img src="https://img.shields.io/badge/⭐ Star%20us%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-<a href="https://github.com/{github_org}/{repo_name}/issues">
+<a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/issues">
   <img src="https://img.shields.io/badge/🐞 Report%20Issues-e74c3c?style=for-the-badge&logo=github" />
 </a>
 
-<a href="https://github.com/{github_org}/{repo_name}/discussions">
+<a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/discussions">
   <img src="https://img.shields.io/badge/💬 Discussions-20c997?style=for-the-badge&logo=github" />
 </a>
 <br/>
-⭐ <b>Thank you for visiting {Project Name}!</b> ⭐
+⭐ <b>Thank you for visiting Awesome Agent-as-a-Judge!</b> ⭐
 
 </div>
