@@ -2,9 +2,7 @@
 
 
 <div align="center">
-  <h1 align="center">Awesome Agent-as-a-Judge</h1>
-  
-<img src="assets/agent.png" alt="Agent-as-a-Judge Illustration" width="500">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Lexend&weight=600&size=42&duration=1500&pause=1000&color=3271AE&center=true&vCenter=true&repeat=false&width=800&height=65&lines=%E2%9C%A8Awesome+Agent-as-a-Judge%E2%9C%A8" />
 
 
 <p align="center">
@@ -13,6 +11,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 </p>
 
+<img src="assets/agent.png" alt="Agent-as-a-Judge Illustration" width="500">
 <img src="assets/taxonomy.png" alt="Agent-as-a-Judge Taxonomy" width="800"/>
 
 </div>
