@@ -4,6 +4,9 @@
 <div align="center">
   <h1 align="center">Awesome Agent-as-a-Judge</h1>
   
+<img src="assets/agent.png" alt="Agent-as-a-Judge Illustration" width="500">
+
+
 <p align="center">
     <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome list badge"></a>
     <a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/stargazers"><img src="https://img.shields.io/github/stars/ModalityDance/Awesome-Agent-as-a-Judge?style=social" alt="GitHub stars"></a>
@@ -95,15 +98,15 @@ We would like to thank the contributors, open-source projects, and research comm
 
 <div align="center">
 
-
 <a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/contributors">
-  <img src="https://contrib.rocks/image?repo=xxx/xxx" />
+  <img src="https://contrib.rocks/image?repo=ModalityDance/Awesome-Agent-as-a-Judge" />
 </a>
 
-<br/><br/>
-
+</div>
 <!-- Star history chart -->
-[![Star History Chart](https://api.star-history.com/svg?repos=ModalityDance/Awesome-Agent-as-a-Judge&type=Date)](https://star-history.com/ModalityDance/Awesome-Agent-as-a-Judge&Date)
+<a href="https://star-history.com/ModalityDance/Awesome-Agent-as-a-Judge&Date">
+  <img src="https://api.star-history.com/svg?repos=ModalityDance/Awesome-Agent-as-a-Judge&type=Date" alt="Star History Chart" width="500"/>
+</a>
 
 </div>
 
