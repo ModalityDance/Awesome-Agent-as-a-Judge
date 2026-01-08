@@ -10,9 +10,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 </p>
 
-<img src="assets/taxonomy.png" alt="Agent-as-a-Judge Taxonomy" width="600"/>
-
-<br/>
+<img src="assets/taxonomy.png" alt="Agent-as-a-Judge Taxonomy" width="800"/>
 
 </div>
 
@@ -25,7 +23,7 @@ Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collect
 ## 📑 Table of Contents <span id="table-of-contents">
 
 * <a href='#papers'>📚 Papers</a>
-* <a href='#community'>🤝 Join the Community</a>
+* <a href='#community'>🪴 Acknowledge</a>
 * <a href='#citation'> 📖 Citation </a>
 
 ## 📚 Papers <span id="papers">
@@ -87,9 +85,12 @@ Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collect
 - [2023/03] Large language models are diverse role-players for summarization evaluation | [paper](https://arxiv.org/abs/2303.15078) | Venue: NLPCC 2023
 
 
-## 🤝 Join the Community <span id="community"></span>
+## 🪴 Acknowledge <span id="community"></span>
+<img src="assets/LOGO.png" alt="Agent-as-a-Judge Taxonomy" width="100"/>
+
 
 We would like to thank the contributors, open-source projects, and research communities whose work made this collection possible. This repository builds upon the excellent research in agent-based evaluation methods. We also acknowledge helpful discussions and support from **Modality Dance Lab** and the open-source community.
+
 
 
 <div align="center">
@@ -133,9 +134,7 @@ We would like to thank the contributors, open-source projects, and research comm
   <img src="https://img.shields.io/badge/🐞 Report%20Issues-e74c3c?style=for-the-badge&logo=github" />
 </a>
 
-<a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/discussions">
-  <img src="https://img.shields.io/badge/💬 Discussions-20c997?style=for-the-badge&logo=github" />
-</a>
+
 <br/>
 ⭐ <b>Thank you for visiting Awesome Agent-as-a-Judge!</b> ⭐
 
