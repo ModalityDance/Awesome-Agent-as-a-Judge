@@ -6,15 +6,21 @@
 
 </div>
 
-Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for **A Survey on Agent-as-a-Judge**, where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
 
 
 <div align="center">
 <p align="center">
     <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome list badge"></a>
+    <a href="https://arxiv.org/abs/2601.05111"><img src="https://img.shields.io/badge/arXiv-2601.05111-b31b1b.svg" alt="arXiv"></a>
+    <a href="https://huggingface.co/papers/2601.05111"><img src="https://img.shields.io/badge/🤗%20HF%20Face-Paper-yellow" alt="Hugging Face"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 </p>
+</div>
 
+
+Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for [**A Survey on Agent-as-a-Judge**](https://arxiv.org/pdf/2601.05111), where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
+
+<div align="center">
 <img src="assets/agent.png" alt="Agent-as-a-Judge Illustration" width="500">
 
 </div>
