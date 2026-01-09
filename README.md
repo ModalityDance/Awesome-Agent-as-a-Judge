@@ -18,7 +18,7 @@
 
 
 
-Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for **AA Survey on Agent-as-a-Judge**, where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
+Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for **A Survey on Agent-as-a-Judge**, where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
 
 
 
@@ -29,6 +29,61 @@ Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collect
 * <a href='#citation'> 📖 Citation </a>
 
 ## 📚 Papers <span id="papers">
+
+
+### Methodologies
+
+
+#### Multi-Agent Collaboration
+- [2024/01] ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate | [paper](https://arxiv.org/abs/2308.07201) | Venue: ICLR 2024
+- [2024/12] M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation | [paper](https://arxiv.org/abs/2412.20127) | Venue: ACL 2025
+- [2024/11] SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation | [paper](https://arxiv.org/abs/2411.16077)
+- [2025/11] HiMATE: A Hierarchical Multi-Agent Framework for Machine Translation Evaluation | [paper](https://arxiv.org/abs/2505.16281) | Venue: EMNLP 2025
+- [2025/05] CAFES: A Collaborative Multi-Agent Framework for Multi-Granular Multimodal Essay Scoring | [paper](https://arxiv.org/abs/2505.13965)
+- [2025/03] GEMA-Score: Granular Explainable Multi-Agent Score for Radiology Report Evaluation | [paper](https://arxiv.org/abs/2503.05347)
+- [2025/07] CourtEval: A courtroom-based multi-agent evaluation framework. | [paper](https://aclanthology.org/2025.findings-acl.1327) | Venue: ACL 2025
+- [2025/02] Faithful, Unfaithful or Ambiguous? Multi-Agent Debate with Initial Stance for Summary Evaluation | [paper](https://arxiv.org/abs/2502.08514) | Venue: NAACL 2025
+- [2023/03] Large language models are diverse role-players for summarization evaluation | [paper](https://arxiv.org/abs/2303.15078) | Venue: NLPCC 2023
+
+#### Planning
+- [2024/05] MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation | [paper](https://arxiv.org/abs/2403.19305) | Venue: DASFAA 2024
+- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
+- [2025/04] EvalAgent: Discovering Implicit Evaluation Criteria from the Web | [paper](https://arxiv.org/abs/2504.15219) | Venue: COLM 2025
+- [2025/05] AGENT-X: Adaptive Guideline-based Expert Network for Threshold-free AI-generated teXt detection | [paper](https://arxiv.org/abs/2505.15261)
+- [2025/11] Large Language Models as User-Agents for Evaluating Task-Oriented-Dialogue Systems . | [paper](https://arxiv.org/abs/2411.09972)
+- [2025/10] Online Rubrics Elicitation from Pairwise Comparisons | [paper](https://arxiv.org/abs/2510.07284)
+
+
+#### Tool Integration
+- [2024/10] Agent-as-a-Judge: Evaluate Agents with Agent | [paper](https://arxiv.org/abs/2410.10934) | Venue: ICML 2025
+- [2025/04] CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation | [paper](https://arxiv.org/abs/2504.13472) | Venue: ASE 2025
+- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
+- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
+- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
+- [2025/04] VerifiAgent: a Unified Verification Agent in Language Model Reasoning | [paper](https://arxiv.org/abs/2504.00406) | Venue: EMNLP 2025
+- [2025/02] Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals. | [paper](https://arxiv.org/abs/2502.19328) | Venue: ACL 2025
+
+
+
+#### Memory and Personalization
+- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
+- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
+- [2024/10] Agent-as-a-Judge: Evaluate Agents with Agent | [paper](https://arxiv.org/abs/2410.10934) | Venue: ICML 2025
+- [2025/05] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment | [paper](https://arxiv.org/abs/2505.15456) | Venue: NeurIPS 2025
+- [2025/06] SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs | [paper](https://arxiv.org/abs/2506.05598) | Venue: ACL 2025
+- [2025/08] PersRM-R1: Enhance Personalized Reward Modeling with Reinforcement Learning | [paper](https://arxiv.org/abs/2508.14076)
+- [2025/02] FSPO: Few-Shot Preference Optimization of Synthetic Preference Data in LLMs Elicits Effective Personalization to Real Users | [paper](https://arxiv.org/abs/2502.19312)
+
+
+#### Optimization Paradigms
+- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
+- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
+- [2025/04] Multi-Agent LLM Judge: automatic personalized LLM judge design for evaluating natural language generation applications | [paper](https://arxiv.org/abs/2504.02867)
+- [2024/11] SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation | [paper](https://arxiv.org/abs/2411.16077)
+- [2025/05] AGENT-X: Adaptive Guideline-based Expert Network for Threshold-free AI-generated teXt detection | [paper](https://arxiv.org/abs/2505.15261)
+- [2025/06] SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs | [paper](https://arxiv.org/abs/2506.05598) | Venue: ACL 2025
+- [2025/10] Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning | [paper](https://arxiv.org/abs/2510.23038)
+- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
 
 
 ### Applications
@@ -88,72 +143,18 @@ Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collect
 - [2025/02] Popper: Automated Hypothesis Validation with Agentic Sequential Falsifications | [paper](https://arxiv.org/abs/2502.09858) | Venue: ICML 2025
 - [2025/04] CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation | [paper](https://arxiv.org/abs/2504.13472) | Venue: ASE 2025
 
-### Methodologies
-
-#### Optimization Paradigms
-- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
-- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
-- [2025/04] Multi-Agent LLM Judge: automatic personalized LLM judge design for evaluating natural language generation applications | [paper](https://arxiv.org/abs/2504.02867)
-- [2024/11] SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation | [paper](https://arxiv.org/abs/2411.16077)
-- [2025/05] AGENT-X: Adaptive Guideline-based Expert Network for Threshold-free AI-generated teXt detection | [paper](https://arxiv.org/abs/2505.15261)
-- [2025/06] SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs | [paper](https://arxiv.org/abs/2506.05598) | Venue: ACL 2025
-- [2025/10] Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning | [paper](https://arxiv.org/abs/2510.23038)
-- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
-
-#### Memory and Personalization
-- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
-- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
-- [2024/10] Agent-as-a-Judge: Evaluate Agents with Agent | [paper](https://arxiv.org/abs/2410.10934) | Venue: ICML 2025
-- [2025/05] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment | [paper](https://arxiv.org/abs/2505.15456) | Venue: NeurIPS 2025
-- [2025/06] SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs | [paper](https://arxiv.org/abs/2506.05598) | Venue: ACL 2025
-- [2025/08] PersRM-R1: Enhance Personalized Reward Modeling with Reinforcement Learning | [paper](https://arxiv.org/abs/2508.14076)
-- [2025/02] FSPO: Few-Shot Preference Optimization of Synthetic Preference Data in LLMs Elicits Effective Personalization to Real Users | [paper](https://arxiv.org/abs/2502.19312)
-
-#### Tool Integration
-- [2024/10] Agent-as-a-Judge: Evaluate Agents with Agent | [paper](https://arxiv.org/abs/2410.10934) | Venue: ICML 2025
-- [2025/04] CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation | [paper](https://arxiv.org/abs/2504.13472) | Venue: ASE 2025
-- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
-- [2025/12] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning | [paper](https://arxiv.org/abs/2512.05111)
-- [2025/11] HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs. | [paper](https://arxiv.org/abs/2511.1876)
-- [2025/04] VerifiAgent: a Unified Verification Agent in Language Model Reasoning | [paper](https://arxiv.org/abs/2504.00406) | Venue: EMNLP 2025
-- [2025/02] Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals. | [paper](https://arxiv.org/abs/2502.19328) | Venue: ACL 2025
-
-#### Planning
-- [2024/05] MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation | [paper](https://arxiv.org/abs/2403.19305) | Venue: DASFAA 2024
-- [2024/12] Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | [paper](https://arxiv.org/abs/2412.09645) | Venue: ACL 2025
-- [2025/04] EvalAgent: Discovering Implicit Evaluation Criteria from the Web | [paper](https://arxiv.org/abs/2504.15219) | Venue: COLM 2025
-- [2025/05] AGENT-X: Adaptive Guideline-based Expert Network for Threshold-free AI-generated teXt detection | [paper](https://arxiv.org/abs/2505.15261)
-- [2025/11] Large Language Models as User-Agents for Evaluating Task-Oriented-Dialogue Systems . | [paper](https://arxiv.org/abs/2411.09972)
-- [2025/10] Online Rubrics Elicitation from Pairwise Comparisons | [paper](https://arxiv.org/abs/2510.07284)
-
-#### Multi-Agent Collaboration
-- [2024/01] ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate | [paper](https://arxiv.org/abs/2308.07201) | Venue: ICLR 2024
-- [2024/12] M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation | [paper](https://arxiv.org/abs/2412.20127) | Venue: ACL 2025
-- [2024/11] SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation | [paper](https://arxiv.org/abs/2411.16077)
-- [2025/11] HiMATE: A Hierarchical Multi-Agent Framework for Machine Translation Evaluation | [paper](https://arxiv.org/abs/2505.16281) | Venue: EMNLP 2025
-- [2025/05] CAFES: A Collaborative Multi-Agent Framework for Multi-Granular Multimodal Essay Scoring | [paper](https://arxiv.org/abs/2505.13965)
-- [2025/03] GEMA-Score: Granular Explainable Multi-Agent Score for Radiology Report Evaluation | [paper](https://arxiv.org/abs/2503.05347)
-- [2025/07] CourtEval: A courtroom-based multi-agent evaluation framework. | [paper](https://aclanthology.org/2025.findings-acl.1327) | Venue: ACL 2025
-- [2025/02] Faithful, Unfaithful or Ambiguous? Multi-Agent Debate with Initial Stance for Summary Evaluation | [paper](https://arxiv.org/abs/2502.08514) | Venue: NAACL 2025
-- [2023/03] Large language models are diverse role-players for summarization evaluation | [paper](https://arxiv.org/abs/2303.15078) | Venue: NLPCC 2023
-
 
 ## 🪴 Acknowledge <span id="community"></span>
-<img src="assets/LOGO.png" alt="Agent-as-a-Judge Taxonomy" width="100"/>
+<!-- <img src="assets/LOGO.png" alt="Agent-as-a-Judge Taxonomy" width="100"/> -->
 
 
-We would like to thank the contributors, open-source projects, and research communities whose work made this collection possible. This repository builds upon the excellent research in agent-based evaluation methods. We also acknowledge helpful discussions and support from **Modality Dance Lab** and the open-source community.
+We would like to thank the contributors, open-source projects, and research communities whose work made this collection possible. This repository builds upon the excellent research in agent-based evaluation methods. We also acknowledge helpful discussions and support from **Modality Dance Group** and the open-source community.
 
 
 
 <div align="center">
 
-<a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/contributors">
-  <img src="https://contrib.rocks/image?repo=ModalityDance/Awesome-Agent-as-a-Judge" />
-</a>
 
-</div>
-<!-- Star history chart -->
 <a href="https://star-history.com/ModalityDance/Awesome-Agent-as-a-Judge&Date">
   <img src="https://api.star-history.com/svg?repos=ModalityDance/Awesome-Agent-as-a-Judge&type=Date" alt="Star History Chart" width="500"/>
 </a>
@@ -168,11 +169,14 @@ We would like to thank the contributors, open-source projects, and research comm
 
 
 ```bibtex
-@article{yourproject2025,
-  title        = {A Survey on Agent-as-a-Judge},
-  author       = {Your Name and Collaborator Name and Others},
-  journal      = {arXiv preprint arXiv:{xxxx.xxxxx}},
-  year         = {2025}
+@misc{you2026agentasajudge,
+      title={Agent-as-a-Judge}, 
+      author={Runyang You and Hongru Cai and Caiqi Zhang and Qiancheng Xu and Meng Liu and Tiezheng Yu and Yongqi Li and Wenjie Li},
+      year={2026},
+      eprint={2601.05111},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.05111}, 
 }
 ```
 
