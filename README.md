@@ -4,7 +4,12 @@
 <div align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Lexend&weight=600&size=42&duration=1500&pause=1000&color=3271AE&center=true&vCenter=true&repeat=false&width=800&height=65&lines=%E2%9C%A8Awesome+Agent-as-a-Judge%E2%9C%A8" />
 
+</div>
 
+Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for **A Survey on Agent-as-a-Judge**, where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
+
+
+<div align="center">
 <p align="center">
     <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome list badge"></a>
     <a href="https://github.com/ModalityDance/Awesome-Agent-as-a-Judge/stargazers"><img src="https://img.shields.io/github/stars/ModalityDance/Awesome-Agent-as-a-Judge?style=social" alt="GitHub stars"></a>
@@ -18,7 +23,6 @@
 
 
 
-Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collection of papers for **A Survey on Agent-as-a-Judge**, where LLM-based agents are used as judges to evaluate different types of outputs, including natural language generation, code generation, mathematical reasoning, and more.
 
 
 
