@@ -160,10 +160,8 @@ Welcome to **Awesome Agent-as-a-Judge**! 👋 This repository provides a collect
 
 
 ## 🪴 Acknowledge <span id="community"></span>
-<!-- <img src="assets/LOGO.png" alt="Agent-as-a-Judge Taxonomy" width="100"/> -->
 
-
-We would like to thank the contributors, open-source projects, and research communities whose work made this collection possible. This repository builds upon the excellent research in agent-based evaluation methods. We also acknowledge helpful discussions and support from **Modality Dance Group** and the open-source community.
+We would like to thank the contributors, open-source projects, and research communities whose work made this collection possible. This repository builds upon the excellent research in agent-based evaluation methods.
 
 
 
